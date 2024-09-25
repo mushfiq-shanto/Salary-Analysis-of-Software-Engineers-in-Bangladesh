@@ -67,7 +67,7 @@ Once processed, the data is visualized in **Tableau**. The dashboard offers a co
 
 - **Correlation Between Company Ratings & Median Salaries**: While there is a **positive correlation** between company ratings and median salaries, the data indicates that several high-paying companies have received ratings below **4.0**. This suggests that although compensation is competitive, other factors affecting employee satisfaction, such as work-life balance or corporate culture, may be less favorable at these organizations.
 
-- **Top Employers**: Companies like **CodeCrafters**, **Welcome Software**, **Cefalo**, and **Binate Solutions** stand out as **top employers**, as they appear in both the **Top 10 Companies by Median Salary** and the **Top 10 Companies by Ratings** lists. These organizations are not only offering competitive compensation but also maintaining strong overall employee satisfaction.
+- **Top Employers**: **CodeCrafters**, **Welcome Software**, **Cefalo**, and **Binate Solutions** stand out as **top employers**, as they appear in both the **Top 10 Companies by Median Salary** and the **Top 10 Companies by Ratings** lists. These organizations are not only offering competitive compensation but also maintaining strong overall employee satisfaction.
   
 The full visual analysis can be accessed in the Tableau dashboard linked above.
 
