@@ -1,4 +1,4 @@
-# Salary Analysis of Software Engineers in Bangladesh Tech Companies
+# Salary Analysis of Software Engineers in Bangladesh
 
 This repository hosts the full pipeline for scraping, processing, analyzing, and visualizing salary data of software engineers working in Bangladesh. The goal is to provide actionable insights for both employers and professionals by leveraging data from Glassdoor.
 
@@ -21,7 +21,7 @@ The final output is an interactive Tableau dashboard that visualizes salary insi
 
 The project follows a well-structured data pipeline:
 1. **Web Scraping**: Collecting salary data from Glassdoor using a Python script.
-2. **Data Cleaning**: Processing and cleaning raw data using Google Colab.
+2. **Data Cleaning**: Processing and cleaning raw data on Google Colab.
 3. **Visualization**: Presenting the cleaned data using Tableau to create an interactive dashboard.
 
 ## Data Source
