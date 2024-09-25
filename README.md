@@ -55,9 +55,9 @@ Data processing and cleaning are handled using **Pandas** and **NumPy** in Googl
 
 Once processed, the data is visualized in **Tableau**. The dashboard offers a collection of visualizations that provide:
 - Comparison of median salary benchmarks.
-- Industry leaders in median salary, salary range, and company rating.
+- Industry leaders in median salary, salary range, and company ratings.
 - Understand correlations between company ratings and salaries.
-- Compare salaries across multiple companies in Bangladesh's IT sector.
+- Compare salaries across multiple companies in Bangladesh.
 
 ## Project Insights
 
