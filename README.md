@@ -50,7 +50,3 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-### Contact
-
-For further inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
