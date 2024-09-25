@@ -122,6 +122,5 @@ def main():
     # Print the total number of companies scraped
     print(f"Total companies scraped: {len(CompaniesInfo)}")
 
-# Entry point: execute the main function if this script is run directly
 if __name__ == '__main__':
     main()
