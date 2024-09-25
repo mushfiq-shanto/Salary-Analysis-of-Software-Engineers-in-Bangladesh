@@ -114,7 +114,7 @@ def main():
     df = pd.DataFrame(CompaniesInfo)
 
     # Save the DataFrame to a CSV file
-    df.to_csv("eng_salaries.csv", index=False)
+    df.to_csv("[RAW_DATA] eng_salaries.csv", index=False)
 
     # Display the last 3 rows of the collected data as a sample
     print(df.tail(3))
