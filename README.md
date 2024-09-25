@@ -43,30 +43,39 @@ The web scraper is built using Python's **Selenium** library to extract salary i
 
 The scraper can be customized to include other roles or geographies if needed.
 
-### Data Cleaning & Processing
+### Data Processing & Cleaning
 
-Data cleaning is handled using **Pandas** and **NumPy** in Google Colab, with the following tasks:
+Data processing and cleaning are handled using **Pandas** and **NumPy** in Google Colab, with the following tasks:
 - Handling missing or malformed data.
-- Parsing salary strings into numerical values (lower, upper, and median).
+- Transforming salary strings into numerical values (lower, upper, and median).
 - Standardizing the format for salary ranges.
-- Calculating additional metrics like average salary and salary distribution.
+- Calculating monthly salary values for yearly recorded entries.
 
 ### Data Visualization
 
-Once processed, the data is visualized in **Tableau**. The dashboard offers an interactive experience where users can:
-- View median salaries by company.
-- Explore the range of salary offerings within each company.
-- Analyze correlations between company ratings and salaries.
-- Compare salaries across multiple companies in Bangladesh's tech sector.
+Once processed, the data is visualized in **Tableau**. The dashboard offers a collection of visualizations that provide:
+- Comparison of median salary benchmarks.
+- Industry leaders in median salary, salary range, and company rating.
+- Understand correlations between company ratings and salaries.
+- Compare salaries across multiple companies in Bangladesh's IT sector.
 
 ## Project Insights
 
-Some of the key insights derived from the project include:
-- **Median Salary Distribution**: Identifies which companies lead the market in terms of compensation.
-- **Salary Ranges**: Highlights companies offering wide salary ranges, indicating growth potential for employees.
-- **Employer Branding Impact**: Correlates company ratings with compensation, providing insights into how salary impacts employee satisfaction.
+- **Industry Benchmarks**: The analysis reveals that the **average median salary** for software engineers across companies in Bangladesh stands at **BDT 48K**. Among the **top 10 highest-paying companies**, this figure rises significantly to **BDT 86K**. However, the **top 10 highest-rated companies** offer a lower average median salary of **BDT 63K**, representing a **27% reduction**.
+
+- **Median Salary Distribution**: A majority (**63%**) of median salaries fall within the **BDT 30K to BDT 60K** range, demonstrating a strong concentration of companies offering compensation in this bracket. The overall salary distribution is **right-skewed**, with a few top software engineers earning significantly higher than their peers.
+
+- **Correlation Between Company Ratings & Median Salaries**: While there is a **positive correlation** between company ratings and median salaries, the data indicates that several high-paying companies have received ratings below **4.0**. This suggests that although compensation is competitive, other factors affecting employee satisfaction, such as work-life balance or corporate culture, may be less favorable at these organizations.
+
+- **Top Employers**: Companies like **CodeCrafters**, **Welcome Software**, **Cefalo**, and **Binate Solutions** stand out as **top employers**, as they appear in both the **Top 10 Companies by Median Salary** and the **Top 10 Companies by Ratings** lists. These organizations are not only offering competitive compensation but also maintaining strong overall employee satisfaction.
   
 The full visual analysis can be accessed in the Tableau dashboard linked above.
+
+## Limitations
+
+- Glassdoor entries frequently lack detailed information on years of experience, resulting in incomplete data sets that may hinder accurate analysis.
+- Job titles can vary significantly across companies, which limits the comprehensive representation of roles within the Glassdoor listings.
+- Potential bias may arise from the varying likelihood of employees at different companies to report their salaries on Glassdoor, affecting the reliability of the data.
 
 ### Build from Source
 
