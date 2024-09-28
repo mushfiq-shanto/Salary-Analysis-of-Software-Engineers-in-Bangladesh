@@ -15,7 +15,6 @@ The final output is an interactive Tableau dashboard that visualizes salary insi
 - **Comprehensive Salary Data**: Extracted from Glassdoor for software engineers across multiple companies in Bangladesh.
 - **Industry Insights**: Interactive visualizations for salary trends, company ratings, and compensation ranges.
 - **Data Processing Pipeline**: Automated data cleaning and transformation for further analysis.
-- **Correlation Analysis**: Insightful correlations between company ratings and salary levels.
 
 ## Project Workflow
 
